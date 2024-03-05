@@ -1,4 +1,12 @@
-   <h1>Analyse Démographique avec Python</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse Démographique avec Python</title>
+</head>
+<body>
+    <h1>Analyse Démographique avec Python</h1>
     <p>Ce projet offre une solution complète d'extraction, de traitement, de stockage, et d'analyse de données démographiques à partir de Worldometers en utilisant Python, allant du web scraping à l'analyse statistique.</p>
     
     <h2>🚀 Fonctionnalités</h2>
@@ -40,8 +48,14 @@ pip install -r requirements.txt
 ├── requirements.txt  # Dépendances
 └── README.md         # Documentation</code></pre>
 
-    
+    <h2>📊 Exemple d'Analyse</h2>
+    <p>Incorporez des exemples d'analyses réalisées, accompagnés de visualisations. Vous pouvez utiliser des images en les ajoutant à votre dépôt et en les référençant dans votre <code>README.md</code> :</p>
+    <pre><code>![Nom de l'Image](chemin/vers/limage.png)</code></pre>
 
     <h2>🤝 Contribution</h2>
     <p>Les contributions sont les bienvenues. N'hésitez pas à forker, contribuer et proposer des pull requests.</p>
 
+    <h2>©️ Licence</h2>
+    <p>Ce projet est sous licence <a href="https://choosealicense.com/licenses/mit/">MIT</a>.</p>
+</body>
+</html>
