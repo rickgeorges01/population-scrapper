@@ -1,4 +1,4 @@
-Projet de Web Scraping, d'Insertion de Données et d'Analyse Statistique avec Python : Insights Démographiques
+<h1>Projet de Web Scraping, d'Insertion de Données et d'Analyse Statistique avec Python : Insights Démographiques</h1>
 
 Ce projet Python offre une approche complète pour l'extraction, le nettoyage, la sauvegarde, l'insertion en base de données et l'analyse statistique des données démographiques par pays à partir du site Web Worldometers. Il illustre un pipeline de traitement de données allant du web scraping à l'analyse statistique approfondie, en passant par la persistance des données dans une base de données relationnelle MySQL.
 
