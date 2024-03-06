@@ -6,10 +6,18 @@ import agregation
 
 # Fonction pour insérer les données à partir du CSV dans la base de données
 def insert_data_from_csv_to_db(csv_file_path):
+    # Lire les données à partir du fichier CSV spécifié et les charger dans un DataFrame pandas
     data_df = pd.read_csv(csv_file_path)
+
+    # Remplacer toutes les valeurs manquantes (NaN) par 0 dans le DataFrame
     data_df.fillna(0, inplace=True)
+
+    # Afficher les 5 premières lignes du DataFrame pour vérifier que les données ont été chargées et nettoyées correctement
     print(data_df.head())
+
+    # Établir une connexion à la base de données en utilisant la fonction connect_to_database() du module db
     connection = db.connect_to_database()
+
     if connection is not None:
         try:
             cursor = connection.cursor()
