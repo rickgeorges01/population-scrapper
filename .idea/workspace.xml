@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="411ff37d-d151-43b5-a244-54b250e011f6" name="Changes" comment="Mise à jour du code">
-      <change afterPath="$PROJECT_DIR$/agregation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.py" afterDir="false" />
-    </list>
+    <list default="true" id="411ff37d-d151-43b5-a244-54b250e011f6" name="Changes" comment="Création des requêtes d'agrégation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708600124092</updated>
       <workItem from="1708600126329" duration="1130000" />
-      <workItem from="1709538974713" duration="18232000" />
+      <workItem from="1709538974713" duration="18657000" />
     </task>
     <task id="LOCAL-00001" summary="Extraction des données et insertions dans la bd">
       <option name="closed" value="true" />
@@ -100,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709736146873</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Création des requêtes d'agrégation">
+      <option name="closed" value="true" />
+      <created>1709741947491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709741947491</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +125,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Extraction des données et insertions dans la bd" />
     <MESSAGE value="Mise à jour du code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise à jour du code" />
+    <MESSAGE value="Création des requêtes d'agrégation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création des requêtes d'agrégation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/thefork_web_scrapper$db.coverage" NAME="db Coverage Results" MODIFIED="1709627730060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

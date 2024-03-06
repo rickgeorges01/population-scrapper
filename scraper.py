@@ -92,6 +92,5 @@ df.to_csv('world_population_data.csv', index=False)
 # Déclaration de la variable csv_file_path
 csv_file_path = 'world_population_data.csv'
 
-
 # Appeler la fonction pour insérer les données du CSV dans la base de données
 insert_data_from_csv_to_db('world_population_data.csv')
