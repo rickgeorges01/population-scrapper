@@ -6,7 +6,7 @@ import db
 # Fonction pour insérer les données à partir du CSV dans la base de données
 def insert_data_from_csv_to_db(csv_file_path):
     data_df = pd.read_csv(csv_file_path)
-    data_df.fillna('valeur_par_defaut', inplace=True)
+    data_df.fillna(0, inplace=True)
     print(data_df.head())
     connection = db.connect_to_database()
     if connection is not None:
@@ -21,7 +21,6 @@ def insert_data_from_csv_to_db(csv_file_path):
                           row['Density'], row['Land Area'], row['Migrants'], row['Fertility Rate'],
                           row['Median Age'], row['Urban Population'], row['World Share'])
                 cursor.execute(query, values)
-                print("Insertion des données réussie.")
             connection.commit()
             print(f"{cursor.rowcount} lignes insérées.")
         except db.mysql.connector.Error as e:
