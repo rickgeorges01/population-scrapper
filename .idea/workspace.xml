@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="411ff37d-d151-43b5-a244-54b250e011f6" name="Changes" comment="Extraction des données et insertions dans la bd">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/world_population_data.csv" beforeDir="false" />
-    </list>
+    <list default="true" id="411ff37d-d151-43b5-a244-54b250e011f6" name="Changes" comment="Extraction des données et insertions dans la bd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708600124092</updated>
       <workItem from="1708600126329" duration="1130000" />
-      <workItem from="1709538974713" duration="12767000" />
+      <workItem from="1709538974713" duration="13304000" />
     </task>
     <task id="LOCAL-00001" summary="Extraction des données et insertions dans la bd">
       <option name="closed" value="true" />
