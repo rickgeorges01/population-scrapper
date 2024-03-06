@@ -6,6 +6,7 @@ import agregation
 
 # Fonction pour insérer les données à partir du CSV dans la base de données
 def insert_data_from_csv_to_db(csv_file_path):
+
     # Lire les données à partir du fichier CSV spécifié et les charger dans un DataFrame pandas
     data_df = pd.read_csv(csv_file_path)
 
