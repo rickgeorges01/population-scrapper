@@ -31,7 +31,7 @@ def insert_data_from_csv_to_db(csv_file_path):
             print("Connexion MySQL est fermée")
 
 
-# URL du site Worldometer (Population par pays)
+# URL du site Worldometer
 url = 'https://www.worldometers.info/world-population/population-by-country/'
 headers = {'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36'}
 
