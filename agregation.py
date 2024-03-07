@@ -1,6 +1,4 @@
 import db
-
-
 def obtenir_population_totale():
     '------------------------CALCULE ET RETOURNE LA POPULATION MONDIALE------------------------'
     connection = db.connect_to_database()
