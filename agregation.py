@@ -7,7 +7,7 @@ def obtenir_population_totale():
             cursor.execute("SELECT SUM(population) AS PopulationTotale FROM population_data;")
             resultat = cursor.fetchone()
             # retourne le resultat totale
-            return resultat[0]
+            return {"Population totale mondiale": resultat[0]}
     except db.mysql.connector.Error as e:
         print(f"Erreur lors de l'agrégation des données (Population mondiale): {e}")
     finally:
@@ -23,7 +23,7 @@ def obtenir_densite_population():
             cursor.execute("SELECT AVG(Density) AS DensiteMoyenne FROM population_data;")
             resultat = cursor.fetchone()
             # Retourne la densité moyenne
-            return resultat[0]
+            return {"Densité Moyenne de la population": resultat[0]}
     except db.mysql.connector.Error as e:
         print(f"Erreur lors de l'agrégation des données (Densité Moyenne): {e}")
     finally:
@@ -39,7 +39,7 @@ def compter_nombre_de_pays():
             cursor.execute("SELECT COUNT(*) FROM population_data;")
             resultat = cursor.fetchone()
             # Retourne le nombre de pays
-            return resultat[0]
+            return {"Nombre totale de pays": resultat[0]}
     except db.mysql.connector.Error as e:
         print(f"Erreur lors de l'agrégation des données (Nombre de Pays): {e}")
     finally:
@@ -85,7 +85,7 @@ def somme_des_migrations():
             cursor.execute("SELECT SUM(Migrants) FROM population_data WHERE Migrants IS NOT NULL;")
             resultat = cursor.fetchone()
             # Retourne la somme des migrations
-            return resultat[0]
+            return {"Sommes des migrations": resultat[0]}
     except db.mysql.connector.Error as e:
         print(f"Erreur lors de l'agrégation des données (migrations): {e}")
     finally:
