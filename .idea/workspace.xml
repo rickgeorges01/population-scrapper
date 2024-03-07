@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="411ff37d-d151-43b5-a244-54b250e011f6" name="Changes" comment="Print des fonctions d'agrégations effectuées !">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="411ff37d-d151-43b5-a244-54b250e011f6" name="Changes" comment="Update des fonctions d'agrégations" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="agrégation" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -192,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709829600370</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update des fonctions d'agrégations">
+      <option name="closed" value="true" />
+      <created>1709830856354</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709830856354</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +223,8 @@
     <MESSAGE value="Update scraper.py" />
     <MESSAGE value="Update scraper.py : ajout des commentaires" />
     <MESSAGE value="Print des fonctions d'agrégations effectuées !" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print des fonctions d'agrégations effectuées !" />
+    <MESSAGE value="Update des fonctions d'agrégations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update des fonctions d'agrégations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
