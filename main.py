@@ -35,7 +35,7 @@ def main():
     resultats.append({"Statistique": "Pays avec la plus petite population (non nulle)", "Valeur": f"{min_country}: {min_population} habitants"})
 
     # Somme des migrations nettes
-    somme_migrations = agregation.somme_des_migrations()["Sommes des migrations"]
+    somme_migrations = agregation.somme_des_migrations()["Somme des migrations"]
     print(f"La somme nette des migrations est de : {somme_migrations}.")
     resultats.append({"Statistique": "Somme nette des migrations", "Valeur": f"{somme_migrations}"})
 
