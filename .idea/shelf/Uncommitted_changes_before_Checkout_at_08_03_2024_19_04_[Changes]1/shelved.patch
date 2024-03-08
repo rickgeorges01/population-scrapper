@@ -1,0 +1,17 @@
+Index: resultats_agregation.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/resultats_agregation.csv b/resultats_agregation.csv
+new file mode 100644
+--- /dev/null	
++++ b/resultats_agregation.csv	
+@@ -0,0 +1,7 @@
++Statistique,Valeur
++Population mondiale totale,8043901603 habitants
++Densité moyenne de population,477.4145 hab/km²
++Nombre total de pays,234 pays
++Pays avec la plus grande population,India: 1428627663 habitants
++Pays avec la plus petite population (non nulle),India: 518 habitants
++Somme nette des migrations,3045
